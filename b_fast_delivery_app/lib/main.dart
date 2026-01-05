@@ -104,12 +104,12 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.delivery_dining, size: 80, color: Colors.blue),
-            SizedBox(height: 20),
-            Text(
-              "Delivery Agent",
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            ),
+Image(
+            image: AssetImage('assets/images/Logo.png'),
+            width: 500,
+            fit: BoxFit.contain,
+          ),
+          
             SizedBox(height: 10),
             CircularProgressIndicator(),
           ],

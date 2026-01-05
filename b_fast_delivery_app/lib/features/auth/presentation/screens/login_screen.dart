@@ -75,27 +75,25 @@ class _LoginScreenState extends State<LoginScreen> {
     final textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
-      // ✅ UI: Set a clean background color
+
       backgroundColor: Colors.white,
-      // ✅ UI: Use SafeArea instead of AppBar
+
       body: SafeArea(
-        // ✅ UI: Make screen scrollable to avoid keyboard overflow
+
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24.0),
           child: Form(
             key: _formKey,
             child: Column(
-              // ✅ UI: Make children stretch to fill width
+
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                // --- Header ---
-                const SizedBox(height: 40),
-                const Icon(
-                  Icons.local_shipping_outlined,
-                  size: 80,
-                  color: Colors.black87,
+                Image(
+                  image: AssetImage('assets/logo/app_logo2.png'),
+                  width: 400,
+                  fit: BoxFit.cover,
                 ),
-                const SizedBox(height: 24),
+                                const SizedBox(height: 8),
                 Text(
                   "Welcome, Agent",
                   textAlign: TextAlign.center,
