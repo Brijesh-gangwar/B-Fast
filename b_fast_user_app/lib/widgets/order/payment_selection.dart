@@ -1,4 +1,5 @@
 
+import 'package:b_fast_user_app/secrets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cashfree_pg_sdk/api/cfpayment/cfdropcheckoutpayment.dart';
 import 'package:flutter_cashfree_pg_sdk/api/cfpaymentgateway/cfpaymentgatewayservice.dart';
@@ -40,9 +41,6 @@ class _PaymentSelectionScreenState extends State<PaymentSelectionScreen> {
 
   CFPaymentGatewayService cfPaymentGatewayService = CFPaymentGatewayService();
 
-  static const clientId = 'TEST106725695c949e5b51106a0f061796527601';
-  static const clientSecret =
-      'cfsk_ma_test_de7445b385ba6c73b2a8e3f384aa8abc_a757ce74';
 
   @override
   void initState() {
