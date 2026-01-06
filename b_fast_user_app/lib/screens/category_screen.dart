@@ -33,7 +33,7 @@ class _CategoryFilterScreenState extends State<CategoryFilterScreen> {
     "Men": ["Shirts", "Jeans", "Shoe", "Fashion"],
     "Women": ["Dresses", "Tops", "Shoes", "New"],
     "Accessories": ["Bags", "Jewelry", "Sunglasses"],
-    "Watches": ["Smartwatches", "Luxury", "Casual"],
+    "Watches": ["Smartwatch", "Luxury", "Casual"],
     "Shoes": ["Sneakers", "Formal", "Sandals"],
     "Electronics": ["Mobile", "Laptop", "Headphones"],
   };
