@@ -1,5 +1,9 @@
 # B-Fast
 
+<div align="center">
+  <img src="b_fast_user_app/assets/logo/app_logo.png" alt="B-Fast Logo" width="200">
+</div>
+
 B-Fast is a comprehensive fast-delivery application platform consisting of three main components:
 
 ## Project Structure
